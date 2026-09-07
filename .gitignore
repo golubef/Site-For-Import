@@ -1,0 +1,12 @@
+cat > .gitignore << 'EOF'
+# Игнорировать подкаталог tmp/
+tmp/
+
+# Игнорировать файлы, заканчивающиеся на _old и _backup
+*_old
+*_backup
+
+# Игнорировать системные файлы
+Thumbs.db
+.DS_Store
+EOF
